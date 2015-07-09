@@ -1,0 +1,82 @@
+/*
+-----------------------------
+SYMPHONY COMMERCE BRAND GUIDE
+-----------------------------
+Primary Color		| #f06b20
+Background Color	| #f0f2ef
+Text Color			| #030303
+-----------------------------
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+body,
+button {
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background: #f0f2ef;
+	color: #030303;
+}
+header {
+	background: #fff;
+}
+header nav ul li a {
+	color: #030303;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+header nav ul li a:hover {
+	color: #7d287d;
+}
+header a {
+	color: #030303;
+	font-weight: 700;
+}
+header a:hover {
+	color: #7d287d;
+}
+header a img {
+	width: auto;
+	height: 30px;
+	display: block;
+}
+label {
+	cursor: pointer;
+}
+input,
+select {
+	height: 40px;
+	padding: 10px;
+}
+input[type=submit],
+input[type=text] {
+	display: inline-block;
+}
+footer {
+	background: #fff;
+	color: #030303;
+}
+footer nav ul li a {
+	color: #030303;
+}
+footer p a:hover {
+	text-decoration: underline;
+}
+.primary-bg {
+	background: #f06b20;
+}
+.primary-txt {
+	color: #f06b20;
+}
+.light-bg {
+	background: #fff;
+}
+.dark-bg {
+	background: #f0f2ef;
+}
+.top-bar {
+	text-transform: uppercase;
+}
+.top-bar img {
+	display: inline-block;
+}

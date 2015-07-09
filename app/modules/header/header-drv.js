@@ -5,6 +5,6 @@ angular.module('coreMod')
 			replace: true,
 			controller: 'ContentController',
 			controllerAs: 'content',
-			templateUrl: '/app/modules/header/header.html'
+			templateUrl: '/symphony-demo/app/modules/header/header.html'
 		};
 	});

@@ -4,6 +4,9 @@ var contents = {
 		alt: 'brand logo',
 	},
 	cart: [{},{},],
+	promotion: {
+		text: 'promotion',
+	},
 	subsections: [{},{},{},],
 	socials: [
 		{name: 'twitter'},

@@ -1,4 +1,4 @@
-angular.module('slidesMod')
+angular.module('coreMod')
 	.directive('slides', function ($timeout){
 		return {
 			restrict: 'E',

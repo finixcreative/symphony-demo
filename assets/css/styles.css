@@ -9,7 +9,6 @@ Phone	| 617-417-2179
 */
 
 /* GENERAL STYLES */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -18,14 +17,7 @@ Phone	| 617-417-2179
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 }
-body,
-button {
-	font-family: 'Open Sans', sans-serif;
-}
 body {
-	background: #444;
-	background-attachment: fixed;
-	color: #444;
 	margin: 0px;
 	overflow-x: hidden;
 	overflow-y: scroll;
@@ -54,12 +46,21 @@ p {
 	line-height: 1.5em;
 }
 header {
-	background: #fff;
-	width: 100%;
-	border-bottom: 1px solid #eee;
-	float: left;
 	position: fixed;
 	z-index: 999;
+}
+header nav ul {
+	padding: 0;
+	margin: 0;
+}
+header nav ul li {
+	line-height: 30px;
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+header nav ul li a {
+	display: block;
 }
 header a {
 	color: #ccc;
@@ -74,8 +75,6 @@ header a img {
 	width: auto;
 	height: 30px;
 }
-nav {}
-nav ul li a {}
 nav ul li a:hover,
 nav ul li a:active,
 nav ul li a:visited,
@@ -86,20 +85,6 @@ nav ul li a.active,
 nav ul li a:active,
 nav ul li a:focus {
 	color: #444;
-}
-ul {
-	width: 100%;
-	padding: 0;
-	margin: 0;
-}
-ul li {
-	line-height: 30px;
-	float: left;
-	display: inline-block;
-	list-style-type: none;
-}
-ul li a {
-	display: block;
 }
 label {
 	cursor: pointer;

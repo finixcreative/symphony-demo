@@ -5,6 +5,6 @@ angular.module('coreMod')
 			replace: true,
 			controller: 'SitemapController',
 			controllerAs: 'sitemap',
-			templateUrl: '/web/app/modules/footer/footer.html'
+			templateUrl: '/symphony-demo/app/modules/footer/footer.html'
 		};
 	});

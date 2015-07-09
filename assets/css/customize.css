@@ -83,7 +83,7 @@ footer p a:hover {
 .top-bar img {
 	display: inline-block;
 }
-img .logo {
+img.logo {
 	width: auto;
 	height: 62px;
 	float: left;

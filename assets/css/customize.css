@@ -43,15 +43,6 @@ header a img {
 label {
 	cursor: pointer;
 }
-input,
-select {
-	height: 40px;
-	padding: 10px;
-}
-input[type=submit],
-input[type=text] {
-	display: inline-block;
-}
 footer {
 	background: #fff;
 	color: #030303;

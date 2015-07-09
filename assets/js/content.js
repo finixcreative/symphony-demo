@@ -6,8 +6,8 @@ var contents = {
 	cart: [{},{},],
 	slides: [
 		{background: '#f0f2ef', title: 'slide 1',},
-		{background: '#f0f2ef', title: 'slide 1',},
-		{background: '#f0f2ef', title: 'slide 1',},
+		{background: '#f0f2ef', title: 'slide 2',},
+		{background: '#f0f2ef', title: 'slide 3',},
 	],
 	promotion: {
 		text: 'promotion',

@@ -3,8 +3,8 @@ angular.module('coreMod')
 		return {
 			restrict: 'E',
 			replace: true,
-			controller: 'SocialController',
-			controllerAs: 'social',
+			controller: 'ContentController',
+			controllerAs: 'content',
 			templateUrl: '/app/modules/social/social.html',
 		};
 	});

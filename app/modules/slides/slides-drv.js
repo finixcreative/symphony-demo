@@ -6,7 +6,7 @@ angular.module('coreMod')
 			scope: {
 				images: '='
 			},
-			templateUrl: '/symphony-demo/app/widgets/slides/slides.html',
+			templateUrl: '/symphony-demo/app/modules/slides/slides.html',
 			controller: 'ContentController',
 			controllerAs: 'content',
 			link: function (scope, elem, attrs){

@@ -130,14 +130,8 @@ input[type=submit] {}
 input[type=text] {
 	display: inline-block;
 }
-footer {
-	color: #fff;
-	position: absolute;
-}
-footer p a {
-	color: #fff;
-	font-weight: 700;
-}
+footer {}
+footer p a {}
 footer p a:hover {
 	color: #fff;
 	text-decoration: underline;
@@ -170,9 +164,6 @@ footer p a:hover {
 .subsection p a:hover,
 .row p a:hover {
 	color: #f52;
-}
-.alt {
-	background: #ccc;
 }
 .center {
 	text-align: center;

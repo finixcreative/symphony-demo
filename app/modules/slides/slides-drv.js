@@ -12,16 +12,16 @@ angular.module('coreMod')
 			link: function (scope, elem, attrs){
 				scope.currentIndex = 0;
 				scope.next = function(){
-					scope.currentIndex < scope.contents.slides.length - 1 ? scope.currentIndex++ : scope.currentIndex = 0;
+					scope.currentIndex < scope.content.contents.slides.length - 1 ? scope.currentIndex++ : scope.currentIndex = 0;
 				};
 				scope.prev = function(){
-					scope.currentIndex > 0 ? scope.currentIndex-- : scope.currentIndex = scope.contents.slides.length - 1;
+					scope.currentIndex > 0 ? scope.currentIndex-- : scope.currentIndex = scope.content.contents.slides.length - 1;
 				};
 				scope.$watch('currentIndex', function() {
-					scope.contents.slides.forEach(function(slide) {
+					scope.content.contents.slides.forEach(function(slide) {
 						slide.visible = false;
 					});
-					scope.contents.slides[scope.currentIndex].visible = true;
+					scope.content.contents.slides[scope.currentIndex].visible = true;
 				});
 				var timer;
 				var sliderFunc = function() {

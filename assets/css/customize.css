@@ -26,14 +26,14 @@ header nav ul li a {
 	text-transform: uppercase;
 }
 header nav ul li a:hover {
-	color: #7d287d;
+	color: #f06b20;
 }
 header a {
 	color: #030303;
 	font-weight: 700;
 }
 header a:hover {
-	color: #7d287d;
+	color: #f06b20;
 }
 header a img {
 	width: auto;
@@ -43,18 +43,12 @@ header a img {
 label {
 	cursor: pointer;
 }
-input,
-select {
-	height: 40px;
-	padding: 10px;
-}
-input[type=submit],
-input[type=text] {
-	display: inline-block;
-}
 footer {
 	background: #fff;
 	color: #030303;
+}
+footer nav ul li {
+	display: block;
 }
 footer nav ul li a {
 	color: #030303;
@@ -71,12 +65,32 @@ footer p a:hover {
 .light-bg {
 	background: #fff;
 }
-.dark-bg {
+.light-txt {
+	color: #fff;
+}
+.mid-bg {
 	background: #f0f2ef;
 }
-.top-bar {
-	text-transform: uppercase;
+.mid-txt {
+	color: #f0f2ef;	
+}
+.dark-bg {
+	background: #030303;
+}
+.dark-txt {
+	color: #030303;	
 }
 .top-bar img {
+	width: 14px;
+	height: 8px;
 	display: inline-block;
+}
+.top-bar a {
+	font-size: 10px;
+	font-weight: 400;
+}
+img.logo {
+	width: auto;
+	height: 62px;
+	float: left;
 }

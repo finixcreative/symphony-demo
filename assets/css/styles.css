@@ -9,7 +9,6 @@ Phone	| 617-417-2179
 */
 
 /* GENERAL STYLES */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -18,14 +17,7 @@ Phone	| 617-417-2179
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 }
-body,
-button {
-	font-family: 'Open Sans', sans-serif;
-}
 body {
-	background: #444;
-	background-attachment: fixed;
-	color: #444;
 	margin: 0px;
 	overflow-x: hidden;
 	overflow-y: scroll;
@@ -54,12 +46,21 @@ p {
 	line-height: 1.5em;
 }
 header {
-	background: #fff;
-	width: 100%;
-	border-bottom: 1px solid #eee;
-	float: left;
 	position: fixed;
 	z-index: 999;
+}
+header nav ul {
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+header nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+header nav ul li a {
+	display: block;
 }
 header a {
 	color: #ccc;
@@ -67,15 +68,7 @@ header a {
 	float: left;
 	font-weight: 700;
 }
-header a:hover {
-	color: #f52;
-}
-header a img {
-	width: auto;
-	height: 30px;
-}
-nav {}
-nav ul li a {}
+header a:hover {}
 nav ul li a:hover,
 nav ul li a:active,
 nav ul li a:visited,
@@ -86,20 +79,6 @@ nav ul li a.active,
 nav ul li a:active,
 nav ul li a:focus {
 	color: #444;
-}
-ul {
-	width: 100%;
-	padding: 0;
-	margin: 0;
-}
-ul li {
-	line-height: 30px;
-	float: left;
-	display: inline-block;
-	list-style-type: none;
-}
-ul li a {
-	display: block;
 }
 label {
 	cursor: pointer;
@@ -145,14 +124,8 @@ input[type=submit] {}
 input[type=text] {
 	display: inline-block;
 }
-footer {
-	color: #fff;
-	position: absolute;
-}
-footer p a {
-	color: #fff;
-	font-weight: 700;
-}
+footer {}
+footer p a {}
 footer p a:hover {
 	color: #fff;
 	text-decoration: underline;
@@ -164,7 +137,7 @@ footer p a:hover {
 }
 #content {
 	width: 100%;
-	padding: 71px 0 0 0;
+	padding: 113px 0 0 0;
 }
 .content {
 	padding: 20px;
@@ -185,9 +158,6 @@ footer p a:hover {
 .subsection p a:hover,
 .row p a:hover {
 	color: #f52;
-}
-.alt {
-	background: #ccc;
 }
 .center {
 	text-align: center;
@@ -210,6 +180,34 @@ footer p a:hover {
 	font-size: 0.8em;
 	font-style: italic;
 }
+.slide {
+	padding: 40px 0;
+	position: relative;
+}
+button#prev {
+	left: 0;
+}
+button#next {
+	right: 0;
+}
+button.slidenav {
+	background: none;
+	height: 100%;
+	margin: 0;
+	border: none;
+	vertical-align: middle;
+	position: absolute;
+	top: 0;
+	display: table-cell;
+	z-index: 998;
+}
+button.slidenav:hover {
+	cursor: pointer;
+}
+button.slidenav:focus {
+	outline: none;
+}
+
 
 /* DEVICES */
 @media screen and (max-width: 960px) {}

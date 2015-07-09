@@ -1,12 +1,10 @@
 <div class="light-bg full">
 	<div class="wrapper">
-		<div class="third content" ng-repeat="subsection in content.contents.subsections">
+		<div class="center content third" ng-repeat="subsection in content.contents.subsections">
 			<img src="assets/images/box.jpg" class="full">
-			<h3>Info</h3>
-			<p class="center">
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-			</p>
-			<a class="center" href="#">Learn More</a>
+			<h4>{{subsection.title}}</h4>
+			<p>{{subsection.text}}</p>
+			<a class="dark-bg light-txt full" href="{{subsection.link.href}}">{{subsection.link.cta}}</a>
 		</div>
 	</div>
 </div>

@@ -4,6 +4,11 @@ var contents = {
 		alt: 'brand logo',
 	},
 	cart: [{},{},],
+	slides: [
+		{background: '#f0f2ef'},
+		{background: '#f0f2ef'},
+		{background: '#f0f2ef'},
+	],
 	promotion: {
 		text: 'promotion',
 	},

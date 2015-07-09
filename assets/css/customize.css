@@ -74,11 +74,20 @@ footer p a:hover {
 .light-bg {
 	background: #fff;
 }
-.dark-bg {
+.light-txt {
+	color: #fff;
+}
+.mid-bg {
 	background: #f0f2ef;
 }
-.top-bar {
-	text-transform: uppercase;
+.mid-txt {
+	color: #f0f2ef;	
+}
+.dark-bg {
+	background: #030303;
+}
+.dark-txt {
+	color: #030303;	
 }
 .top-bar img {
 	display: inline-block;

@@ -1,0 +1,23 @@
+<footer class="light-bg full">
+	<div class="wrapper">
+		<div class="full content">
+			<p class="uppercase content dark-bg full"><a href="#" class="primary-txt">Like us</a> on facebook for exclusive offers and updates</p>
+		</div>
+		<nav class="sitemap full">
+			<ul class="quarter content" ng-repeat="subnav in sitemap.sitemap.subnavs">
+				<li><b>{{subnav.title}}</b></li>
+				<li ng-repeat="sublink in subnav.sublinks"><a href="#">{{sublink.title}}</a></li>
+			</ul>
+			<ul class="quarter content">
+				<li><b>Stay Connected</b></li>
+				<li>
+					<input type="email" class="fourfifth" placeholder="example@gmail.com"/>
+					<input type="submit" class="onefifth"/>
+				</li>
+				<li>
+					<social></social>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</footer>

@@ -180,6 +180,30 @@ footer p a:hover {
 	font-size: 0.8em;
 	font-style: italic;
 }
+button#prev {
+	left: 0;
+}
+button#next {
+	right: 0;
+}
+button.slidenav {
+	background: none;
+	height: 100%;
+	margin: 0;
+	border: none;
+	vertical-align: middle;
+	position: absolute;
+	top: 0;
+	display: table-cell;
+	z-index: 998;
+}
+button.slidenav:hover {
+	cursor: pointer;
+}
+button.slidenav:focus {
+	outline: none;
+}
+
 
 /* DEVICES */
 @media screen and (max-width: 960px) {}

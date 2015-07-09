@@ -5,9 +5,9 @@ var contents = {
 	},
 	cart: [{},{},],
 	slides: [
-		{background: '#f0f2ef'},
-		{background: '#f0f2ef'},
-		{background: '#f0f2ef'},
+		{background: '#f0f2ef', title: 'slide 1',},
+		{background: '#f0f2ef', title: 'slide 1',},
+		{background: '#f0f2ef', title: 'slide 1',},
 	],
 	promotion: {
 		text: 'promotion',

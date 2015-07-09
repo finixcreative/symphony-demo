@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app='symphonyApp'>
+	<head>
+		<!-- Styles -->
+		<link type="text/css" rel="stylesheet" href="assets/css/responsive.css"/>
+		<link type="text/css" rel="stylesheet" href="assets/css/styles.css"/>
+		<link type="text/css" rel="stylesheet" href="assets/css/customize.css"/>
+		<!-- External Libraries -->
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular-route.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+		<!-- Foundation Scripts -->
+		<script type='text/javascript' src='app/app.js'></script>
+		<script type='text/javascript' src='app/routes.js'></script>
+		<!-- Databases -->
+		<script type='text/javascript' src='assets/js/sitemap.js'></script>
+		<script type='text/javascript' src='assets/js/sitemap-ctrl.js'></script>
+		<script type='text/javascript' src='assets/js/content.js'></script>
+		<script type='text/javascript' src='assets/js/content-ctrl.js'></script>
+		<!-- Core Modules -->
+		<script type='text/javascript' src='app/modules/footer/footer-drv.js'></script>
+		<script type='text/javascript' src='app/modules/header/header-drv.js'></script>
+		<script type='text/javascript' src='app/modules/nav/nav-drv.js'></script>
+		<script type='text/javascript' src='app/modules/promotion/promotion-drv.js'></script>
+		<script type='text/javascript' src='app/modules/social/social-drv.js'></script>
+		<script type='text/javascript' src='app/modules/subsection/subsection-drv.js'></script>
+	</head>
+	<body>
+		<fxheader></fxheader>
+		<div id="content" class='main full' ng-view></div>
+		<fxfooter></fxfooter>
+	</body>
+</html>

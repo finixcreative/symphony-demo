@@ -26,14 +26,14 @@ header nav ul li a {
 	text-transform: uppercase;
 }
 header nav ul li a:hover {
-	color: #7d287d;
+	color: #f06b20;
 }
 header a {
 	color: #030303;
 	font-weight: 700;
 }
 header a:hover {
-	color: #7d287d;
+	color: #f06b20;
 }
 header a img {
 	width: auto;

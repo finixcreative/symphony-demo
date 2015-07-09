@@ -5,6 +5,6 @@ angular.module('coreMod')
 			replace: true,
 			controller: 'SocialController',
 			controllerAs: 'social',
-			templateUrl: '/app/modules/social/social.html',
+			templateUrl: '/symphony-demo/app/modules/social/social.html',
 		};
 	});

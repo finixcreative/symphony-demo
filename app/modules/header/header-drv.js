@@ -1,4 +1,4 @@
-angular.module('coreMod', [])
+angular.module('coreMod')
 	.directive('fxheader', function(){
 		return {
 			restrict: 'E',

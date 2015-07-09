@@ -85,6 +85,10 @@ footer p a:hover {
 	height: 8px;
 	display: inline-block;
 }
+.top-bar a {
+	font-size: 8px;
+	font-weight: 400;
+}
 img.logo {
 	width: auto;
 	height: 62px;

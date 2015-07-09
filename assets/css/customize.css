@@ -56,6 +56,9 @@ footer {
 	background: #fff;
 	color: #030303;
 }
+footer nav ul li {
+	display: block;
+}
 footer nav ul li a {
 	color: #030303;
 }

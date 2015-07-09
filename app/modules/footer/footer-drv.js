@@ -3,6 +3,8 @@ angular.module('coreMod')
 		return {
 			restrict: 'E',
 			replace: true,
+			controller: 'SitemapController',
+			controllerAs: 'sitemap',
 			templateUrl: '/web/app/modules/footer/footer.html'
 		};
 	});

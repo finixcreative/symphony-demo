@@ -7,7 +7,32 @@ var contents = {
 	promotion: {
 		text: 'promotion',
 	},
-	subsections: [{},{},{},],
+	subsections: [
+		{
+			title: 'Info',
+			text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+			link: {
+				cta: 'Learn More',
+				href: '#',
+			},
+		},
+		{
+			title: 'Info',
+			text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+			link: {
+				cta: 'Learn More',
+				href: '#',
+			},
+		},
+		{
+			title: 'Info',
+			text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+			link: {
+				cta: 'Learn More',
+				href: '#',
+			},
+		},
+	],
 	socials: [
 		{name: 'twitter'},
 		{name: 'facebook'},

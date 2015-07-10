@@ -124,7 +124,6 @@ input[type=text] {
 footer {}
 footer p a {}
 footer p a:hover {
-	color: #fff;
 	text-decoration: underline;
 }
 .wrapper {

@@ -106,12 +106,6 @@ select {
 	color: #f52;
 	border: 2px solid #f52;
 }
-.cta,
-.submit {
-	padding: 15px 20px;
-	font-weight: 700;
-	text-transform: uppercase;
-}
 button:active, button:focus, button:hover,
 input:active, input:focus, input:hover,
 select:active, select:focus, select:hover {

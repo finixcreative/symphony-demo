@@ -22,7 +22,6 @@ header {
 }
 header nav ul li a {
 	color: #030303;
-	font-weight: 700;
 	text-transform: uppercase;
 }
 header nav ul li a:hover {
@@ -92,4 +91,12 @@ img.logo {
 	width: auto;
 	height: 62px;
 	float: left;
+}
+.cart {
+	margin: 15px 0;
+}
+.promotion h4 {
+	margin: 0;
+	font-weight: 400;
+	letter-spacing: 0.8em;
 }

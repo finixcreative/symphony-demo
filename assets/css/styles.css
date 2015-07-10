@@ -42,7 +42,7 @@ h4 {
 	line-height: 2em;
 }
 p {
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.5em;
 }
 header {
@@ -63,10 +63,7 @@ header nav ul li a {
 	display: block;
 }
 header a {
-	color: #ccc;
-	padding: 20px;
 	float: left;
-	font-weight: 700;
 }
 header a:hover {}
 nav ul li a:hover,
@@ -109,12 +106,6 @@ select {
 	color: #f52;
 	border: 2px solid #f52;
 }
-.cta,
-.submit {
-	padding: 15px 20px;
-	font-weight: 700;
-	text-transform: uppercase;
-}
 button:active, button:focus, button:hover,
 input:active, input:focus, input:hover,
 select:active, select:focus, select:hover {
@@ -127,7 +118,6 @@ input[type=text] {
 footer {}
 footer p a {}
 footer p a:hover {
-	color: #fff;
 	text-decoration: underline;
 }
 .wrapper {
@@ -141,6 +131,12 @@ footer p a:hover {
 }
 .content {
 	padding: 20px;
+}
+.content-short {
+	padding: 5px 20px;
+}
+.content-small {
+	padding: 5px;
 }
 .subsection,
 .row {
@@ -175,6 +171,9 @@ footer p a:hover {
 }
 .right-float {
 	float: right;
+}
+.bold {
+	font-weight: 700;
 }
 .italics {
 	font-size: 0.8em;

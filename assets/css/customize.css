@@ -22,7 +22,7 @@ header {
 }
 header nav ul li a {
 	color: #030303;
-	font-weight: 700;
+	font-size: 14px;
 	text-transform: uppercase;
 }
 header nav ul li a:hover {
@@ -30,7 +30,6 @@ header nav ul li a:hover {
 }
 header a {
 	color: #030303;
-	font-weight: 700;
 }
 header a:hover {
 	color: #f06b20;
@@ -46,6 +45,7 @@ label {
 footer {
 	background: #fff;
 	color: #030303;
+	font-size: 14px;
 }
 footer nav ul li {
 	display: block;
@@ -53,8 +53,8 @@ footer nav ul li {
 footer nav ul li a {
 	color: #030303;
 }
-footer p a:hover {
-	text-decoration: underline;
+footer li.social a {
+	float: left;
 }
 .primary-bg {
 	background: #f06b20;
@@ -93,4 +93,17 @@ img.logo {
 	width: auto;
 	height: 62px;
 	float: left;
+}
+.cart {
+	margin: 15px 0;
+	font-size: 14px;
+}
+.promotion h4 {
+	margin: 0;
+	font-weight: 400;
+	letter-spacing: 0.8em;
+}
+.submit {
+	border: none;
+	cursor: pointer;
 }

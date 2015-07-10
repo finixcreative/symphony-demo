@@ -3,7 +3,10 @@ var contents = {
 		src: 'assets/images/logo.png',
 		alt: 'brand logo',
 	},
-	cart: [{},{},],
+	cart: [
+		{},
+		{},
+	],
 	slides: [
 		{background: '#f0f2ef', title: 'slide 1',},
 		{background: '#f0f2ef', title: 'slide 2',},
@@ -11,6 +14,7 @@ var contents = {
 	],
 	promotion: {
 		text: 'promotion',
+		link: '#',
 	},
 	subsections: [
 		{

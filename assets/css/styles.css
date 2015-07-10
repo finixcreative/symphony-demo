@@ -142,6 +142,9 @@ footer p a:hover {
 .content-short {
 	padding: 5px 20px;
 }
+.content-small {
+	padding: 5px;
+}
 .subsection,
 .row {
 	background: #fff;

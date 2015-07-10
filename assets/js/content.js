@@ -14,6 +14,7 @@ var contents = {
 	],
 	promotion: {
 		text: 'promotion',
+		link: '#',
 	},
 	subsections: [
 		{

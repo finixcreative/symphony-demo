@@ -45,6 +45,7 @@ label {
 footer {
 	background: #fff;
 	color: #030303;
+	font-size: 14px;
 }
 footer nav ul li {
 	display: block;
@@ -104,4 +105,5 @@ img.logo {
 }
 .submit {
 	border: none;
+	cursor: pointer;
 }

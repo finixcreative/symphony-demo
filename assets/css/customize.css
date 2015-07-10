@@ -102,3 +102,6 @@ img.logo {
 	font-weight: 400;
 	letter-spacing: 0.8em;
 }
+.submit {
+	border: none;
+}

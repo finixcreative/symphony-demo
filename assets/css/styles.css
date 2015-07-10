@@ -63,10 +63,7 @@ header nav ul li a {
 	display: block;
 }
 header a {
-	color: #ccc;
-	padding: 20px;
 	float: left;
-	font-weight: 700;
 }
 header a:hover {}
 nav ul li a:hover,
@@ -142,6 +139,9 @@ footer p a:hover {
 .content {
 	padding: 20px;
 }
+.content-short {
+	padding: 5px 20px;
+}
 .subsection,
 .row {
 	background: #fff;
@@ -175,6 +175,9 @@ footer p a:hover {
 }
 .right-float {
 	float: right;
+}
+.bold {
+	font-weight: 700;
 }
 .italics {
 	font-size: 0.8em;

@@ -52,6 +52,9 @@ footer nav ul li {
 footer nav ul li a {
 	color: #030303;
 }
+footer li.social a {
+	float: left;
+}
 .primary-bg {
 	background: #f06b20;
 }
